@@ -12,7 +12,7 @@ int main(void){
         {44, 87, 100, 63, 52, 60, 58, 73, 55, 86, 29, 56, 89, 23, 65, 84, 64, 27, 86, 84}
     };
     float ave[SUB_NUM], std[SUB_NUM];
-    int total[SUB_NUM];
+    float total[SUB_NUM];
     
     int sum=0;
     for(i=0;i<SUB_NUM;i++){
