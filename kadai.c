@@ -34,7 +34,7 @@ int main(void){
         
     }
     for(i=0;i<SUB_NUM;i++){
-        printf("%s 平均点：%f 合計点:%d 標準偏差：%f\n",subjects[i],ave[i],total[i],std[i]);
+        printf("%s 平均点：%f 合計点:%f 標準偏差：%f\n",subjects[i],ave[i],total[i],std[i]);
     }
 
     printf("\n偏差値\n");
