@@ -14,7 +14,7 @@ int main(void){
     float ave[SUB_NUM], std[SUB_NUM];
     float total[SUB_NUM];
     
-    int sum=0;
+    float sum=0;
     for(i=0;i<SUB_NUM;i++){
         sum=0.0;
         for(j=0;j<PERSON_NUM;j++)
