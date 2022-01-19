@@ -1,0 +1,34 @@
+require "narray"
+score11 = [65,80,67,35,58,60,72,75,68,92,36,50,25,85,46,42,78,62,84,70]
+score12=[44,87,100,63,52,60,58,73,55,86,29,56,89,23,65,84,64,27,86,84]
+score1= NArray.to_na(score11)
+score2= NArray.to_na(score12)
+puts "笑介君のクラス20人のテストの点数は、理科が"
+p score1.to_a
+puts "英語が"
+p score2.to_a
+puts "平均"
+puts "理科"
+p score1.mean
+puts "英語"
+p score2.mean
+puts "標準偏差"
+puts "理科"
+p score1.stddev
+puts "英語"
+p score2.stddev
+puts "合計点"
+puts "理科"
+p score1.sum
+puts "英語"
+p score2.sum
+puts "偏差値"
+puts "理科"
+p ((score1-score1.mean)/score1.stddev*10+50).to_a
+puts "英語"
+p ((score2-score2.mean)/score2.stddev*10+50).to_a
+puts "昇順ソート"
+puts "理科"
+p score1.sort.reverse.to_a
+puts "英語"
+p score2.sort.reverse.to_a
